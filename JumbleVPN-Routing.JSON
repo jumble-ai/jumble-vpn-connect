@@ -1,0 +1,41 @@
+{
+    "Name": "JumbleVPN",
+    "GlobalProxy": "true",
+    "UseChunkFiles": "true",
+    "RemoteDns": "76.76.10.41",
+    "DomesticDns": "76.76.2.41",
+    "RemoteDNSType": "DoU",
+    "RemoteDNSDomain": "https://freedns.controld.com/x-hagezi-pro",
+    "RemoteDNSIP": "76.76.10.41",
+    "DomesticDNSType": "DoU",
+    "DomesticDNSDomain": "https://freedns.controld.com/x-hagezi-pro",
+    "DomesticDNSIP": "76.76.2.41",
+    "Geoipurl": "https://github.com/jumble-ai/jumble-vpn-connect/raw/refs/heads/main/geoip.dat",
+    "Geositeurl": "https://github.com/jumble-ai/jumble-vpn-connect/raw/refs/heads/main/geosite.dat",
+    "LastUpdated": "1764266666",
+    "DnsHosts": {},
+    "DirectSites": [
+        "geosite:private",
+        "geosite:category-ru",
+        "geosite:microsoft",
+        "geosite:apple",
+        "geosite:google-play",
+        "geosite:epicgames",
+        "geosite:riot",
+        "geosite:steam",
+        "geosite:twitch"
+    ],
+    "DirectIp": [
+        "geoip:direct"
+    ],
+    "ProxySites": [],
+    "ProxyIp": [],
+    "BlockSites": [
+        "geosite:win-spy",
+        "geosite:torrent",
+        "geosite:category-ads"
+    ],
+    "BlockIp": [],
+    "DomainStrategy": "IPIfNonMatch",
+    "FakeDNS": "false"
+}
