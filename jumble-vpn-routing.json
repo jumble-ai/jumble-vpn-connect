@@ -1,41 +1,51 @@
 {
-    "Name": "JumbleVPN",
-    "GlobalProxy": "true",
-    "UseChunkFiles": "true",
-    "RemoteDns": "76.76.10.41",
-    "DomesticDns": "76.76.2.41",
-    "RemoteDNSType": "DoU",
-    "RemoteDNSDomain": "https://freedns.controld.com/x-hagezi-pro",
-    "RemoteDNSIP": "76.76.10.41",
-    "DomesticDNSType": "DoU",
-    "DomesticDNSDomain": "https://freedns.controld.com/x-hagezi-pro",
-    "DomesticDNSIP": "76.76.2.41",
-    "Geoipurl": "https://github.com/jumble-ai/jumble-vpn-connect/raw/refs/heads/main/geoip.dat",
-    "Geositeurl": "https://github.com/jumble-ai/jumble-vpn-connect/raw/refs/heads/main/geosite.dat",
-    "LastUpdated": "1764266666",
-    "DnsHosts": {},
-    "DirectSites": [
-        "geosite:private",
-        "geosite:category-ru",
-        "geosite:microsoft",
-        "geosite:apple",
-        "geosite:google-play",
-        "geosite:epicgames",
-        "geosite:riot",
-        "geosite:steam",
-        "geosite:twitch"
-    ],
-    "DirectIp": [
-        "geoip:direct"
-    ],
-    "ProxySites": [],
-    "ProxyIp": [],
-    "BlockSites": [
-        "geosite:win-spy",
-        "geosite:torrent",
-        "geosite:category-ads"
-    ],
-    "BlockIp": [],
-    "DomainStrategy": "IPIfNonMatch",
-    "FakeDNS": "false"
+  "Name": "JumbleVPN",
+  "GlobalProxy": "true",
+  "UseChunkFiles": "true",
+  "RemoteDns": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
+  "RemoteDNSType": "DoU",
+  "RemoteDNSDomain": "https://dns.google/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSDomain": "https://common.dot.dns.yandex.net/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip@202602240501/release/geoip.dat",
+  "Geositeurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite@202602210214/release/geosite.dat",
+  "LastUpdated": "1771909343",
+  "DnsHosts": {},
+  "RouteOrder": "block-proxy-direct",
+  "DirectSites": [
+    "geosite:private",
+    "geosite:category-ru",
+    "geosite:microsoft",
+    "geosite:apple",
+    "geosite:google-play",
+    "geosite:epicgames",
+    "geosite:riot",
+    "geosite:escapefromtarkov",
+    "geosite:steam",
+    "geosite:twitch",
+    "geosite:pinterest",
+    "geosite:faceit"
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:direct"
+  ],
+  "ProxySites": [
+    "geosite:github",
+    "geosite:twitch-ads",
+    "geosite:youtube",
+    "geosite:telegram"
+  ],
+  "ProxyIp": [],
+  "BlockSites": [
+    "geosite:win-spy",
+    "geosite:torrent",
+    "geosite:category-ads"
+  ],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
 }
